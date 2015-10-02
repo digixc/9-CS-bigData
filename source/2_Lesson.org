@@ -88,7 +88,7 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Python
+* Python Primer
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -96,97 +96,12 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Last lesson, we looked at the scale of data used globally, and thought about how collecting and analysing lots of records can help organisations and governments to improve.
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Most people tend to use words for passwords, rather than random characters. 
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: quote
-:END:
-- Often, developers want to write an outline of a program before writing it. By writing the code in human-readable English, it becomes easier to articulate the flow of our program, even if we don't know all the command words to actually write it yet.
-- We call this *pseudocode*. A simple dictionary search algorithm could be expressed like this:
-#+begin_example
-1. Make a variable called 'foundPass' and set it to False. We'll change this if your password is found.
-2. Ask user for the password to test. Store as 'yourPassword'
-3. Store some passwords in a list. Let's call it 'passwordList'
-4. For each password in passwordList...
-    4a. If yourPassword is the same as the current passwordList item...
-        4a. i. Print a message, saying we've found your password
-        4a. ii. Set foundPass to True
-5. If foundPass is False, print a message to say the password wasn't found.
-#+end_example
-
-- Load up IDLE, start a new program (File -> New) and copy the code below into the window:
-
-#+begin_src python   
-passwordList=['password','123456','batman']
-
-yourPassword=input("Please enter a password: ")
-foundPass=False
-    
-for tryPass in passwordList:
-    if yourPassword==tryPass:
-        print("Your password could be hacked.")
-        foundPass=True
-
-if foundPass==False:
-    print("That password isn't in my list.")
-#+end_src 
-
-- Save the file as 'simplePassword.py' and run the program a few times to see how it works. 
-- This is a start, but three passwords simply isn't enough for a dictionary attack. 
-- Time for an upgrade. Save [[./img/passwords.txt][this file]] to your home drive, ensuring its in the same directory that you save your Python work into. 
-- Make another new file, and add this code to it:
-
-#+begin_src python   
-print("Loading passwords... Please wait...")
-theFile = open('passwords.txt', 'r')
-passwordList=[]
-
-for eachLine in theFile:
-    for eachWord in eachLine.split():
-        passwordList.append(eachWord)
-
-theFile.close()
-
-yourPassword=input("Please enter a password: ")
-passwordPosition=0
-foundPass=False
-
-for tryPass in passwordList:
-    passwordPosition+=1
-    if yourPassword==tryPass:
-        print("Found it in record " + str(passwordPosition))
-        foundPass=True
-
-if foundPass==False:
-    print("That password is not in the dictionary.")
-#+end_src 
-
-
-- Test the program, using some passwords. Try predictable ones (e.g. 123456) and any others you can think of.
-- *Tip:* Avoid typing your own password; another person sitting nearby could see it.
-** Badge It - Silver
+- Over the Summer holiday, you may have forgotten some of the Python coding skills you've covered previously.
+- This session will cover some material you've looked at before, to help you in the lessons to come.
+** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- This program uses a lot of the ideas from the previous version of the program, but has a few new lines. If you look at the code and think about the variable names, you should be able to come up with an explanation of how it works. 
-- Write out pseudocode to explain how the program works.
-** Badge It - Gold
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Make a text file with this Monday's lessons in it; one on each line.
-- Write another with Tuesday's lessons in it. Again, put one on each line.
-- Write a program which allows you to enter a lesson. 
-- The program should tell you if the lesson is on Monday, Tuesday or neither. 
-** Badge It - Platinum
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Improve your program by having it tell you which lesson period AND which day the lesson is on.
+- *Silver:* COMING SOON
+- *Gold:* 
+- *Platinum:*
