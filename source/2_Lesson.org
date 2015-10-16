@@ -88,20 +88,121 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Python Primer
+* Re-introduction to Python
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+- Click [[http://amomwithalessonplan.com/knock-knock-jokes-for-kids/][here]] and choose a "joke". Open IDLE and get the computer to output your joke.
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Now  add your joke.
+
+- Stuck? 
+- print ("message here")
+[[./img/PythonJoke1.png]]
+
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Over the Summer holiday, you may have forgotten some of the Python coding skills you've covered previously.
-- This session will cover some material you've looked at before, to help you in the lessons to come.
-** Badge It
+- Using the print statement allows us to get the computer to output or 'talk' to us. What's next?
+- Perfunctory steps...
+- Let's wrap our joke in a function so we can use it again and again.
+- A function is a piece of code that we may want to use again and again.
+- This makes for less code and more efficient testing.
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Add the below code:
+
+def joke1():
+	your print statements here
+
+joke1() # this will call the joke
+
+- Stuck?
+[[./img/PythonJoke2.png]]
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Currently our joke is static, we need to get active and responsive. 
+- We use variables to store data, so let's ask a question.
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Add the code below to add a variable so we can response to the answer.
+[[./img/PythonJoke3.png]]
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Now we have an answer; we can respond. The keywords for choice are if / elif / else. There should always be one if and one else. If you need more decisions just add more elif inbetween the if and else. This allows us to make branching programs that are able to interactive with the user. For if and elif statements we need to compare.
+- We can use several symbols to compare answers in different ways - choice making choices?
+
+- < Less than 
+- > More than
+- == same as
+- != or <> not the same as
+
+- For the else statement we do not need a comparator as it is just everything else.
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Add the code below so we can response to the answer.
+[[./img/PythonJoke4.png]]
+- Expand it!: Now get your code to call all three functions  based on your response to the first question.
+- Stuck? It should look like this.
+[[./img/PythonJoke5.png]]
+- We want our user to be able to choose several times to 'enjoy' all of our witty jokes.
+- Action Point: Add the following code.
+[[./img/PythonJoke6.png]]
+- Debug Time!
+- What's wrong with the code? (6 to find)
+[[./img/PythonJoke7.png]]
+- Comedy is all about timing. 
+- Add this to your first line import time, datetime.
+- This will bring a whole series of commands involving time and date.
+- Now add the extra code:
+[[./img/PythonJoke8.png]]
+- Yeah... much funnier...
+- Accessing more comedy.
+- A text file has been added with some of the best jokes...
+- I want to import them into Python and then choose a random joke each time.
+- Start a new file - CTRL + N.
+- Save as 'accessing the comedy.py'
+- Open and save the following text file.
+- [[./img/jokes.txt][Click here to open the jokes text file.]]
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Use the code below to get python to open and read the file.
+[[./img/PythonJoke9.jpg]]
+- Now let's add a search facility.
+[[./img/PythonJoke10.jpg]]
+** Badge It - Silver
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- *Silver:* COMING SOON
-- *Gold:* 
-- *Platinum:*
+- Upload a screenshot/screen clip of your code with 3 jokes in functions,input variable and conditionals.
+** Badge It - Gold
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Add screenshots of debugging and use of libraries in our code. 
+** Badge It - Platinum
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Add a screenshot showing you using the code provided to access and use a text file using Python's ability to read and search.
