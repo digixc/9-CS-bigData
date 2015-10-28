@@ -29,7 +29,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:pages/4_Lesson.html][Week 5 - Ethic]]
+* [[file:pages/5_Lesson.html][Week 5 - Ethics]] 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
-:END
+:END:
