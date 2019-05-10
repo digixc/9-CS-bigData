@@ -173,7 +173,11 @@ joke1() # this will call the joke
 - Expand it!: Now get your code to call all three functions  based on your response to the first question.
 - Stuck? It should look like this.
 [[./img/PythonJoke5.png]]
-
+** Badge It - Silver
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Upload a screenshot/screen clip of your code with 3 jokes in functions,input variable and conditionals.
 * Let's go round again
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -184,6 +188,11 @@ joke1() # this will call the joke
 - Debug Time!
 - What's wrong with the code? (6 to find)
 [[./img/PythonJoke7.png]]
+** Badge It - Gold
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Add screenshots of debugging and use of libraries in our code. 
 * Comedy is all about timing
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -211,16 +220,8 @@ joke1() # this will call the joke
 [[./img/PythonJoke9.jpg]]
 - Now let's add a search facility.
 [[./img/PythonJoke10.jpg]]
-** Badge It - Silver
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Upload a screenshot/screen clip of your code with 3 jokes in functions,input variable and conditionals.
-** Badge It - Gold
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Add screenshots of debugging and use of libraries in our code. 
+
+
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
