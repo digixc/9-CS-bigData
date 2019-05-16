@@ -98,11 +98,18 @@
 :HTML_CONTAINER_CLASS: activity
 :END:
 
-** Homework Task 1
+** Homework Task 1 - Home Automation and Bigdata
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- coming soon
+- Research Home Automation by reading the following web page (https://www.reviews.org/home-security/what-is-home-automation/) , and then answer the questions.
+
+  + What is Home Automation?
+
+  + Identify and list the number of devices that you can buy to automate your home or car and birefly describe their purposes
+
+  + Explain how they can contribute to big data such as Amazon’s Alexa collecting information from all of your devices and how this Bigdata can be used or misused.
+- If you are interested,[[https://ifttt.com][ here is a site]] you may find more ways to automate a home
 
 
 ** Homework Task 2
